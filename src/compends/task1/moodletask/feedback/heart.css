@@ -1,0 +1,8 @@
+.heartcolor{
+    font-size: 200px;
+    color:red;
+}
+.heartdiv{
+    background-image: linear-gradient(to right,rgb(215, 89, 110),rgb(223, 145, 44));
+    border-radius:25px;
+}

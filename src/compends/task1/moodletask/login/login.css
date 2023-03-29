@@ -1,0 +1,26 @@
+.clr{
+    background-image: linear-gradient(to right,rgb(234, 144, 66), rgb(177, 61, 173));
+   min-height: 100vh;
+}
+.loginemail{
+   margin-top:20px;
+   outline: none;
+   border: none;
+   background-color: darkgray;
+}
+.spanlogin{
+    background-color: darkgray;
+    border-radius: 50px; 
+}
+::placeholder{
+    text-align: center;
+}
+.div{
+border-radius:30px;
+}
+.btnlogin{
+   width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}

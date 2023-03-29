@@ -1,0 +1,19 @@
+.tech{
+    background-color: aqua;
+}
+.card1{
+    border-radius:50px;
+    border-top: 10px solid red;
+}
+.card2{
+    border-radius:50px;
+    border-top: 10px solid rgb(49, 85, 202);
+}
+.card3{
+    border-radius:50px;
+    border-top: 10px solid rgb(32, 196, 108);
+}
+.card4{
+    border-radius:50px;
+    border-top: 10px solid rgb(220, 96, 24);
+}

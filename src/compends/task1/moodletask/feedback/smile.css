@@ -1,0 +1,12 @@
+.smlie{
+    font-size:150px;
+    color:rgb(255, 152, 8);
+}
+.smileborder{
+    border-radius: 25px;
+   
+}
+.smilebody{
+    background-image: linear-gradient(to right,rgb(221, 102, 118),rgb(229, 67, 67));
+    min-height: 100vh;
+}
