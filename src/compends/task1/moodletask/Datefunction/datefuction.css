@@ -1,0 +1,22 @@
+.dataclass{
+ text-align: center;
+ /* margin-top: 200px; */
+ padding: 20px;
+ /* margin-left:400px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 250px;
+ 
+}
+.datefun{
+    border-radius: 25px;
+    padding: 10px;
+}
+.weatherbody{
+    background-image: url("./download\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
