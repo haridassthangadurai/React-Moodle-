@@ -1,0 +1,71 @@
+.Weatherindia {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Weatherindia-header {
+    background-image: url("./Meteorologist\ dream\ _\ JPC\ van\ Heijst.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  button {
+    padding: 4px;
+    border-radius:35px;
+    border: none;
+    font-size:15px;
+    margin:5px;
+
+  }
+  
+  input {
+    padding: 4px;
+    outline: none;
+    border-radius:35px;
+    border: none;
+    font-size:15px;
+  }
+  button:hover{
+    background-color: green;
+  }
+  .Weatherbox{
+    background-color: antiquewhite;
+    margin-top:50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding:45px;
+  }
