@@ -1,0 +1,94 @@
+.profilemenubody{
+    background-image: url("./9-business-formulas-math-haters-cant-ignore.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:50vh;
+}
+.profilemenunav{
+    background-color: antiquewhite;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+    box-shadow: 0 10px 50px 0px black;
+   
+}
+.profilemenubody1{
+    background-color: antiquewhite;
+    opacity: 80%;
+}
+.navproflie{
+     list-style-type: none;
+     display: flex;
+     margin-left: 800px;
+   
+}
+@media (max-width:675px){
+    .navproflie{
+        list-style-type: none;
+        display: flex;
+        margin-left:0px;
+      
+   }
+}
+.profilemenubtn{
+    border-radius:5px;
+    font-size: 13px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(95, 18, 59);
+    border: 1px solid rgb(44, 25, 35);
+
+}
+.profilemenubtn1{
+    border-radius:5px;
+    font-size: 12px;
+    padding:3px 15px 3px 15px;
+    color: white;
+    background-color:transparent;
+    border: 1px solid white;
+    
+}
+.profilemenubtn2{
+    border-radius:5px;
+    font-size: 13px;
+    padding:3px 20px 3px 20px;
+    color: white;
+    background-color: rgb(95, 18, 59);
+    border: 1px solid rgb(44, 25, 35);
+    
+}
+.profilemenubtn3{
+    font-size: 25px;
+    color: white;  
+}
+.porfilename{
+    color: white;
+    font-size: 13px;
+}
+.porfilename1{
+    color:rgb(95, 18, 59);
+    font-size: 20px;
+}
+.cent{
+    display: grid;
+    place-items: center;
+    margin-left:300px;
+}
+.profiletext{
+    color:rgb(95, 18, 59);  
+}
+.bord{
+    border-radius: 5px;
+}
+.nonline{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+@media (max-width:675px){
+    .cent{
+        display: grid;
+        place-items: center;
+        margin-left:100px;
+    }
+}

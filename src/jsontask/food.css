@@ -1,0 +1,38 @@
+.foodbody{
+    background-color: gray;
+    
+
+}
+ @keyframes foodcolor{
+      
+      0%{
+        background-color: rgb(255, 255, 255);
+      }
+      20%{
+        background-color: rgb(35, 47, 47);
+      }
+      40%{
+        background-color: rgb(39, 87, 5);
+      }
+      60%{
+        background-color: rgb(51, 18, 40);
+      }
+      80%{
+        background-color: rgb(220, 127, 106);
+      }
+      100%{
+        background-color: rgb(111, 153, 27);
+      }
+
+ }
+ .foodcard{
+    border-top-left-radius:30px;
+    
+ }
+ .foodcard:hover{
+    transform: scale(1.1);
+    animation: foodcolor 5s infinite alternate;
+    color: white;
+    
+ }
+ 
